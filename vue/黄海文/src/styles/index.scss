@@ -1,0 +1,51 @@
+@import "animate.css";
+@import "common";
+@import "index.css";
+@import "fonts/iconfont.css";
+$base_color : yellowgreen;
+$base_ft :40px;
+
+html,body,#app , .main-box {
+    width:100vw;
+    min-height:100vh;
+}
+.van-button{
+    width: 100%;
+}
+.swiper-wrapper{
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid yellowgreen;
+    border-radius: 0.5rem
+}
+.swiper-wrapper img{
+    width: 90%;
+    border-radius: 0.6rem;
+}
+.van-toast__icon{
+    margin-top: 0.5rem;
+}
+.van-toast__text{
+    font-size: 0.25rem;
+    width: 2.6rem;
+    margin-bottom: 0.5rem;
+}
+.van-loading__spinner--circular{
+    margin-top: 0.5rem;;
+}
+.aplayer .aplayer-list ol li{
+    text-align: left !important;
+}
+.aplayer{
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
