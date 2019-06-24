@@ -1,0 +1,37 @@
+
+1 写 300-500 字的项目总结  
+
+## 技术
+1.vue
+2.vuex
+3.vue-cli
+4.axios
+5.vue-router
+6.vant
+7.token
+8.模块化开发
+9.前后端分离
+
+## 难点
+1.模块的封装，使用
+2.函数的异步执行
+3.前后端交互产生的跨域问题
+4.vue，vuex及vue-cli使用的熟练度较低
+5.token令牌
+
+
+## 心得体会
+1.后端获取前端通过post传递来的数据，需要设置app.use(express.json())和app.use(express.urlencoded({extended:false}))才能用req.body得到 
+2.后端通过cors，可解决跨域产生的问题；前端可用jsonp和proxy
+3.后端可以通过设置路由别名，分离不同项目的路由路径
+4.token作为一种令牌，在前端将数据提交到后端后，后端通过加密，存放在req.session中，并把加密的token返回给前端，前端储存在sessionStoragy中，在部分请求中实现身份验证
+5.通过vue，可以将页面分为各独立组件，实现单页面应用
+6.vue含有大量的api，使得元素操作更加简便
+7.vuex是vue的状态管理模式，分为state，view，actons，将原本分散的数据，方法整合在一个store.js中
+
+
+## 后期改进 
+1.对于各类插件的运用，要深刻的理解和运用
+2.在功能的实现上，能够细化分解为所能用到的知识
+3.更多的了解学习es6等新技术和写法
+4.多写多练多反思

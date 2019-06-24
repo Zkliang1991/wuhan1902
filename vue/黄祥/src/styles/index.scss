@@ -1,0 +1,22 @@
+@import "animate.css";
+@import "common.scss";
+@import "index.css";
+@import "fonts/iconfont.css";
+
+$base_color : yellowgreen;
+$base_ft :40px;
+
+html,body,#app , .mainbox {
+    width:100vw;
+    height:100vh;
+}
+
+.box{
+    font-size: $base_ft;
+    color:$base_color;
+}
+
+
+
+
+
