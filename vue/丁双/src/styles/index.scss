@@ -1,0 +1,60 @@
+
+
+
+// 引入动画样式
+@import "animate.css";
+// 引入基本样式
+@import "common.scss";
+// 引入字体样式
+@import "./fonts/iconfont.css";
+
+$base_color:yellow;
+$base_ft:40px;
+
+html,body,#app{
+    width:100vw;
+    height:100vh;
+}
+.box{
+    // font-size:$base_ft;
+}
+
+
+// 动画效果   app.vue 路由出口使用transition  绑定name属性
+
+// 详情返回列表
+@keyframes left-in{
+    0%{transform:translateX(-100%);opacity:0}
+    100%{transform:translateX(0);opacity:1}
+}
+@keyframes right-out{
+    0%{transform:translateX(0);opacity:1}
+    100%{transform:translateX(100%);opacity:0}
+}
+
+// 列表转到详情
+@keyframes left-out{
+    0%{transform:translateX(0);opacity:1}
+    100%{transform:translateX(-100%);opacity:0}
+
+}
+@keyframes right-in{
+    0%{transform:translateX(100%);opacity:0}
+    100%{transform:translateX(0);opacity:1}
+}
+
+.slide-detail-enter-active{
+    animation:right-in 2s;
+}
+
+.slide-detail-leave-active{
+    animation:left-out .1s;
+}
+
+.slide-list-enter-active{
+    animation:left-in .1s;
+}
+
+.slide-list-leave-active{
+    animation:right-out 2s;
+}
