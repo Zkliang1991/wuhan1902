@@ -1,4 +1,20 @@
 
 
-心得体会 
+1 写 300-500 字的项目总结  
+
+## 技术
+1. vuex mongodb mongoos async(watfall) session vant  token  axios 
+
+
+## 难点
+ 主要vuex的应用  各种钩子函数的使用   组件之间的通讯
+
+
+## 心得体会
+    用vue框架写项目 思路明了  都是模块化 简单明了 主要是实际应用少了 
+
+
+## 后期改进 
+
+增强学习 
 
