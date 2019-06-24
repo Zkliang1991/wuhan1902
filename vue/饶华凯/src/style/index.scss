@@ -1,0 +1,36 @@
+@import "./index.css";
+@import "./animate.css";
+@import "./iconfont/iconfont.css";
+@import "./iconfont_2/iconfont.css";
+
+// html{
+//     font-size:calc(100vw/7.5);
+// }
+html{
+	font-size: calc(100vw/7.5);
+	font-size:-webkit-calc(100vw/7.5);
+	width: 100vw;
+	height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+		font-size:0.16rem;
+		width: 100vw;
+		height: 100vh;
+  }
+
+.footdiv{
+width:100%;
+height:0.8rem;
+}
+.cl:after{
+	content: "";
+	height: 0;
+	overflow:hidden;
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
