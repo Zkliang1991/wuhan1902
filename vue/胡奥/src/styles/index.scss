@@ -1,0 +1,26 @@
+
+
+
+
+@import "animate.css";
+@import "common";
+@import "fonts/iconfont.css";
+
+$base_color : yellowgreen;
+$base_ft :40px;
+
+html,body,#app , .dbox {
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    overflow-y:auto;
+}
+
+.box{
+    font-size: $base_ft;
+    color:$base_color;
+}
+
+
+
+
