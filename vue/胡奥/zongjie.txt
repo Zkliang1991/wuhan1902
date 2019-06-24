@@ -1,0 +1,17 @@
+1.技术
+node.js
+vue: vuex 脚手架
+axios proxy
+
+
+难点
+token 的使用和理解 这个完全没有理解直接copy的
+不看老师原码自己写组件通信有困难。
+vuex用的极度烂  异步请求一写就炸。
+
+心得体会
+vue 的v-for v-on(@) v-bind(:) v-model v-if v-show 用的贼溜。
+
+后期改进 
+将异步请求改用vuex实现
+页面与数据的优化
