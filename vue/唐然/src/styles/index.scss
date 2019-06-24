@@ -1,0 +1,167 @@
+@import "animate.css";
+@import "common";
+@import "font/iconfont.css";
+
+html,
+body,
+#app,
+.main-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.main-box {
+    padding-top: 48px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.user {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    padding: .32rem 0;
+    background-color: #f37d0f;
+    display: flex;
+    align-items: center;
+}
+
+.header-img {
+    margin: 0 .16rem 0 .32rem;
+    width: .96rem;
+    height: .96rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 3px solid hsla(0, 0%, 100%, .4);
+    text-align: center;
+}
+
+.header-name {
+    color: #fff;
+    font-size: .28rem;
+    text-align: left;
+}
+
+.order {
+    background-color: #fff;
+    height: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    color: rgba(0, 0, 0, .54);
+    position: relative;
+    padding-right: .56rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-order {
+    font-size: .3rem;
+    padding: 0 0 0 .32rem;
+    color: rgba(0, 0, 0, .87);
+}
+
+.all-order {
+    font-size: .24rem;
+    color: rgba(0, 0, 0, .87);
+}
+
+.order::after {
+    content: "";
+    position: absolute;
+    right: 5.12px;
+    right: .32rem;
+    top: 50%;
+    width: 3.2px;
+    width: .2rem;
+    height: 3.2px;
+    height: .2rem;
+    border-left: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    transform: translate3d(0, -50%, 0) rotate(135deg);
+    -webkit-transform: translate3d(0, -50%, 0) rotate(135deg);
+}
+
+.state {
+    padding: 0 .8rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.state li {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.state i,
+.state span {
+    display: block;
+}
+
+.state i {
+    font-size: .4rem;
+}
+
+.state span {
+    font-size: .25rem;
+}
+
+.items {
+    margin-top: .25rem;
+    background-color: #fff;
+}
+
+.items li {
+    position: relative;
+    padding-left: 1.12rem;
+}
+
+.items li>div {
+    height: 1.04rem;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    color: currentColor;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+
+.items li:last-child>div {
+    border-bottom: none;
+}
+
+.items li>div::after {
+    content: "";
+    position: absolute;
+    right: 5.12px;
+    right: .32rem;
+    top: 50%;
+    width: 3.2px;
+    width: .2rem;
+    height: 3.2px;
+    height: .2rem;
+    border-left: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    transform: translate3d(0, -50%, 0) rotate(135deg);
+    -webkit-transform: translate3d(0, -50%, 0) rotate(135deg);
+}
+
+.items i {
+    position: absolute;
+    top: 50%;
+    margin-top: -.2rem;
+    left: .35rem;
+    font-size: .5rem;
+    color: #ff6600;
+}
