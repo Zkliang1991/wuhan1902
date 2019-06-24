@@ -1,0 +1,26 @@
+
+
+
+
+@import "animate.css";
+@import "common";
+//@import "mint-ui.css";
+@import "fonts/iconfont.css";
+
+$base_color : yellowgreen;
+$base_ft :40px;
+
+html,body,#app , .main-box {
+    width:100vw;
+    height:100vh;
+}
+
+.box{
+    font-size: $base_ft;
+    color:$base_color;
+}
+
+
+
+
+
