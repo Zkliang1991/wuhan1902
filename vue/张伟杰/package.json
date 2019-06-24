@@ -1,0 +1,33 @@
+{
+  "name": "myApp",
+  "version": "1.0.0",
+  "description": "My glorious Nuxt.js project",
+  "author": "zwj",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "async": "^3.0.1",
+    "axios": "^0.19.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.2",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.0",
+    "multer": "^1.4.1",
+    "nuxt": "^2.0.0",
+    "vant": "^2.0.1",
+    "vue-resource": "^1.5.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "nodemon": "^1.18.9"
+  }
+}

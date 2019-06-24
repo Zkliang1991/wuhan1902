@@ -1,0 +1,56 @@
+
+
+@import "animate.css";
+
+@import "common.scss";
+@import "index.css";
+@import "fonts/iconfont.css";
+// @import "main.css";
+
+
+
+html,body,#app,.allbox{
+    width: 100%;
+    height: 100%;
+}
+.van-tab--active{
+    color:red ;
+    font-size: 0.40rem;
+}
+.van-tabs__wrap{
+    position: fixed ;
+}
+.van-stepper__minus ,.van-stepper__minus--disabled.stepper__minus, .van-stepper__plus{
+    width: 0.8rem;
+    height: 0.8rem ;
+    // background-color: ;
+  }
+.van-stepper__input{
+    font-size:0.36rem;
+    font-weight: 500; 
+}
+.clear:after{
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    overflow: hidden;
+
+}
+.par { 
+    margin-bottom: 1.6rem;
+}
+.move {
+    animation: zoomInDown .8s;
+}
+.van-swipe-cell__right{
+    background-color: #f44 !important;
+    // text-align: center;
+}
+.allPar .van-tabs>.van-tabs__wrap{
+    top: 0.9rem;
+}
+
+
+
