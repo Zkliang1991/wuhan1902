@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{190:function(t,n,e){"use strict";e.r(n);var l=e(14),component=Object(l.a)({},function(){var t=this.$createElement,n=this._self._c||t;return n("div",[n("h2",[this._v(" app - app -app 主视图")]),this._v(" "),n("hr"),this._v(" "),n("nuxt-child")],1)},[],!1,null,null,null);n.default=component.exports}}]);

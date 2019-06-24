@@ -1,0 +1,35 @@
+{
+  "name": "my-nuxt",
+  "version": "1.0.0",
+  "description": "My laudable Nuxt.js project",
+  "author": "zkllll",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "PORT=3002 nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "async": "^3.1.0",
+    "axios": "^0.19.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.2",
+    "mint-ui": "^2.2.13",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.6.0",
+    "nuxt": "^2.0.0",
+    "vue-resource": "^1.5.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4"
+  }
+}
