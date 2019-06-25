@@ -1,0 +1,18 @@
+@import "animate.css";
+@import "common";
+@import "vant-ui.css";
+@import "foot/iconfont.css";
+$base_color: yellowgreen;
+$base_ft :40px;
+html,
+body,
+#app,
+.ment-box {
+    width: 100vw; //宽度100%的意思
+    height: 100vh; //高度100%的意思
+}
+
+.box {
+    font-size: $base_ft;
+    color: $base_color;
+}
