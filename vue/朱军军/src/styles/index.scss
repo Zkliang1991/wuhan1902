@@ -1,0 +1,33 @@
+
+
+// 首页样式
+
+//main.js中引入样式, 样式引入位置,在index.scss,
+@import "animate.css";
+@import "common";
+
+@import "fonts/iconfont.css";//引入图标包
+
+@import "vant.css";//在主样式页面引入Vant.css
+
+$base_color : yellowgreen;
+$base_ft :30px;
+
+html,body,#app , .main-box {
+    width:100vw;
+    height:100vh;
+}
+
+.box{
+    font-size: $base_ft;
+    color:$base_color;
+}
+
+.main-box{
+    padding-top:40px;
+    box-sizing:border-box;
+}
+
+
+
+

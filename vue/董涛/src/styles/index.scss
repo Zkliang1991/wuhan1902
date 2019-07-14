@@ -1,0 +1,82 @@
+@import "animate.css";
+@import "common";
+@import "mint-ui.css";
+@import "fonts/iconfont.css";
+@import "vant.css";
+$base_color: yellowgreen;
+$base_ft :40px;
+html,
+body,
+#app,
+.main-box {
+    width: 100vw;
+    height: 100vh;
+    background: #FFF;
+}
+
+.box {
+    font-size: $base_ft;
+    color: $base_color;
+}
+
+.main-box {
+    padding-top: 50px;
+    box-sizing: border-box;
+    // padding-bottom: 50px;
+}
+
+// left 作用    right 右 
+// 详情返回列表 
+// @keyframes left-in {
+//     0% {
+//         transform: translateX(-100%);
+//         opacity: 0;
+//     }
+//     100% {
+//         transform: translateX(0);
+//         opacity: 1;
+//     }
+// }
+// @keyframes right-out {
+//     0% {
+//         transform: translateX(0);
+//         opacity: 1;
+//     }
+//     100% {
+//         transform: translateX(100%);
+//         opacity: 0;
+//     }
+// }
+// // 列表跳转详情
+// @keyframes left-out {
+//     0% {
+//         transform: translateX(0);
+//         opacity: 1;
+//     }
+//     100% {
+//         transform: translateX(-100%);
+//         opacity: 0;
+//     }
+// }
+// @keyframes right-in {
+//     0% {
+//         transform: translateX(100%);
+//         opacity: 0;
+//     }
+//     100% {
+//         transform: translateX(0);
+//         opacity: 1;
+//     }
+// }
+// .slide-detail-enter-active {
+//     animation: right-in .8s
+// }
+// .slide-detail-leave-active {
+//     animation: left-out .1s
+// }
+// .slide-list-enter-active {
+//     animation: left-in .8s;
+// }
+// .slide-list-leave-active {
+//     animation: right-out .8s;
+// }
