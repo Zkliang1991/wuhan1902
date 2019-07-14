@@ -1,0 +1,66 @@
+
+
+
+
+@import "animate.css";
+@import "common";
+@import "antd-mobile.css";
+@import "fonts/iconfont.css";
+
+
+* { touch-action: pan-y; } 
+
+html,body,#app,.main,.box{
+    width:100vw;
+    height:100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// #app{
+//     // color:$base_color;
+//     // font-size:100px;
+//     // background:url(../assets/images/mv3.jpg) 0 0 no-repeat;
+// }
+
+// .box{
+//     color:red;
+//     // font-size:40px;
+// }
+// .btn{
+//     border:none;
+//     outline:none;
+//     color:red;/*no*/
+//     padding:20px;
+//     border-radius:5px;/*no*/
+//     // font-size:24px;
+//     background:#123456;
+
+// }
+// .disable{
+//     border:none;
+//     outline:none;
+//     color:red;/*no*/
+//     padding:20px;
+//     border-radius:5px;/*no*/
+//     // font-size:24px;
+//     background:#123456;
+//     opacity:.4;
+// }
+
+.move-in{
+    animation:zoomInDown .8s;
+}
+.slide-in-right{
+    animation:slideInLeft .8s;
+}
+
+// .box-enter{
+//     animation:zoomInDown .8s
+// }
+
+// .box-leave{
+//     animation:zoomOutDown .8s
+// }
