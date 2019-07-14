@@ -1,0 +1,90 @@
+
+@import "./animate.css";
+@import "./common.scss";
+@import "./antd-mobile.css";
+@import "./swiper.css";
+@import "./fonts/iconfont.css";
+
+$base_color : yellowgreen;
+$base_ft :40px;
+
+*{
+    touch-action: pan-y;
+    padding: 0;
+    margin: 0;
+}
+
+html,body, #app,.box , #main {
+    width:100vw;
+    height:100vh;
+
+}
+// .box{
+//     color:red;
+//     font-size: 100px;
+// }
+.btn{
+    border:none;
+    outline: none;
+    color: red;
+    padding: 10px; /*no*/
+    border-radius: 5px; /*no*/
+}
+
+.disable{
+    border:none;
+    outline: none;
+    color: red;
+    padding: 10px; /*no*/
+    border-radius: 5px; /*no*/
+    opacity: .4;
+}
+
+.box-enter{
+    animation:bounceInUp .8s;
+}
+
+.box-leave{
+    animation:bounceOutUp .8s;
+}
+
+.shadowBox{
+    width:100%;
+    height:100%;
+    background:rgba(black, .4);
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.inpBox{
+    background-color: #fff;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+// #app{
+//     color:$base_color;
+//     font-size: 100px; /*no*/   // 后面添加 /*no*/ 指不使用rem 适配
+//     border:1px solid red; /*no*/
+//     background: url(../assets/images/img2.jpg) 0 0 no-repeat;
+// }
+
+.move-in{
+    animation:zoomInDown .8s;
+}
+
+
+.box-enter{
+    animation: zoomInDown .8s;
+}
+
+.box-leave{
+    animation: zoomOutDown .8s;
+}
+
+

@@ -1,0 +1,28 @@
+.Activity{
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color:#fff ;
+    z-index: 100;
+    animation: fadeInUp 1s;
+}
+.kk{
+    display: none;
+}
+$none:"";
+@function none(){
+     
+}
+.ActivityHide{
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color:#fff ;
+    z-index: 100;
+    animation: fadeOutDown 1.5s;
+    display: none;
+}
