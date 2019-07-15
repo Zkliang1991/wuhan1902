@@ -1,0 +1,25 @@
+
+@import "animate.css";
+@import 'antd-mobile.css';
+@import 'common.scss';
+@import 'iconfont.css';
+
+
+$base_color : yellowgreen;
+$base_ft :40px;
+
+html,body,#root , .app {
+    width:100vw;
+    height:100vh;
+}
+
+// #app{
+//     color:$base_color;
+//     font-size:$base_ft;/*no*/
+//     background: url("../assets/images/benghua2.png") 0 0 no-repeat;
+// }
+
+
+
+
+
