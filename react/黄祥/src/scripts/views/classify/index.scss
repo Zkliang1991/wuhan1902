@@ -1,0 +1,36 @@
+.classbody{
+    overflow: hidden;
+    padding: 5%;
+    margin-bottom: 1rem;
+    .maletype{
+        overflow: hidden;
+    }
+    .femaletype{
+        overflow: hidden;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #bbb
+    }
+    .maletype,.femaletype{
+        div{
+            width: 33%;
+            float: left;
+            font-size: 16px;
+            text-align: center;
+            p{
+                width: 90%;
+                background-color: #1875FA;
+                text-align: center;
+                padding: 10px 0;
+                margin: 10px 0;
+                border-radius: 10px;
+                color: #fff
+            }
+        }
+    }
+    
+    
+}

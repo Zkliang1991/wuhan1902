@@ -1,0 +1,21 @@
+.inpbar{
+    width: 100%;
+    overflow: hidden;
+    padding: 2% 0 ;
+    background-color: #fff;
+    input{
+        margin-left: 3%;
+        line-height: 30px;
+        float: left;
+        width: 75%;
+        border:1px solid #999;
+        border-radius: 10px;
+        text-indent: 10px;
+    }
+    p{
+        line-height: 30px;
+        float: left;
+        width: 20%;
+        text-align: center;
+    }
+}

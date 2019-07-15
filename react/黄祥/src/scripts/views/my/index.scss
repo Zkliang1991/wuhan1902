@@ -1,0 +1,88 @@
+.box{
+    color: #777;
+    .up,.registe,.phone{
+        width: 80%;
+        margin: 20% auto;
+        h2{
+            font-size: 26px;
+        }
+        .userbar{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin: 20px 0;
+            label{
+                font-size: 20px;
+                padding: 6px
+            }
+            .user{
+                flex:1;
+                border: 0;
+                border-radius: 10px;
+                text-indent: 10px;
+            }
+        }
+        .pwdbar{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin: 20px 0;
+            label{
+                font-size: 20px;
+                padding: 6px
+            }
+            .password{
+                flex:1;
+                border: 0;
+                border-radius: 10px;
+                text-indent: 10px;
+            }
+            .getcheck{
+                width: 35%;
+                padding: 6px;
+                background-color: #1875FA;
+                color: #fff;
+                border-radius: 5px;
+            }
+        }
+        .pwdbar2{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin: 20px 0;
+            label{
+                font-size: 20px;
+                padding: 6px
+            }
+            .password{
+                flex:1;
+                border: 0;
+                border-radius: 10px;
+                text-indent: 10px;
+            }
+        }
+        .bt{
+            width: 100%;
+            padding: 0.3rem;
+            border-radius: 10px;
+            margin: 0 0 15px 0;
+            background-color: #1875FA;
+            color: #333
+        }
+        .other{
+            font-size: 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .usermsg{
+        width: 80%;
+        margin: 20% auto;
+        h2{
+            font-size: 26px;
+        }
+    }
+    
+}
+
