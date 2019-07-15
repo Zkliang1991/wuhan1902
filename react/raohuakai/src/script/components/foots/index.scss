@@ -1,0 +1,24 @@
+.app-foot{
+    position:fixed;
+    bottom:0;
+    height:55px; 
+    width:100%;
+    display: flex;
+    background-color:#fff !important;
+}
+
+.foot-div{
+    flex:1 !important;
+    text-align:center !important;
+    color:#000 !important;
+    font-size:0.4rem !important;
+}
+
+.nav-active,.router-link-exact-active{
+    color:rgb(21, 180, 100) !important;
+    border-color:rgb(21, 180, 100) !important;
+}
+
+.foot-logo{
+    font-size:30px !important;
+}

@@ -1,0 +1,22 @@
+.comDetailed-box{
+    // font-family:"宋体"
+}
+
+.comDetailed-ul{
+    border: 1px solid gray;
+    >li{
+        border-radius: 5px;
+        background-color: rgb(240, 214, 214);
+        margin:20px 10px;
+        padding:5px 10px;
+        font-size: 16px;
+    }
+}
+.subject-comment{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    z-index: 20;
+    background-color: #fff;
+}

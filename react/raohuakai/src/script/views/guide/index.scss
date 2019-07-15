@@ -1,0 +1,9 @@
+.guide-btn{
+    position:fixed;
+    bottom:100px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 500px;
+    opacity: 0;
+    transition:all 3s;
+}
