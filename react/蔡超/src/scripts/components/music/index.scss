@@ -1,0 +1,48 @@
+
+.music-in{
+    animation: bounceInRight .7s;
+}
+
+.music-out{
+    animation: bounceOutRight .7s;
+
+}
+.lyric-text{
+    font-size: 20px;
+    width:100%;
+    text-align:center;
+    color:gray;
+    padding-bottom:20px;
+}
+.lyric-active{
+    font-size:23px;
+    width:100%;
+    text-align:center;
+    background:#252323;
+    color:white;
+    padding-bottom:20px;
+}
+.button{
+    height: 25px;
+    width: 50px; 
+    font-size: 12px; 
+    line-height: 25px; 
+    border-radius: 12.5px;
+    text-align: center;
+    border:1px solid white;
+    font-weight: 900;
+}
+.btn-active{
+    background:white;
+    border-color:black;
+    color:black
+}
+
+@keyframes xuanzhuan{
+    0%{
+        transform:translateX(-50%) rotate(0deg)
+    }
+    100%{
+        transform:translateX(-50%) rotate(360deg)
+    }
+}

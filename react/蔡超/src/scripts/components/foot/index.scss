@@ -1,0 +1,43 @@
+
+.bar{
+    width: 16px;    /*no*/
+    height: 34px;   /*no*/
+    position: absolute;
+    overflow: hidden;
+}
+
+.bar-line{
+    width: 28px;    /*no*/
+    height: 28px;   /*no*/
+    border: 3px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    // transform: rotate(-135deg)
+}
+.bar-icon{
+    font-size: 26px; /*no*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-42%) translateY(-50%);
+}
+
+@keyframes load_right{
+    0%{
+        transform:rotate(-135deg)
+    }
+    50%,100%{
+        transform: rotate(45deg)
+    }
+}
+
+@keyframes load_left{
+    0%,50%{
+        transform:rotate(-135deg)
+    }
+    100%{
+        transform: rotate(45deg)
+    }
+}
+

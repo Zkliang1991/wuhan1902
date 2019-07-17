@@ -1,0 +1,11 @@
+.songlist-in{
+    animation: fadeInUp .2s;
+}
+
+.songlist-out{
+    animation:fadeOutDown .2s;
+}
+
+.songlist-active{
+    background:#dfdfdf;
+}

@@ -1,0 +1,35 @@
+
+
+@import './antd-mobile.css';
+@import './common.scss';
+@import './animate.css';
+@import './swiper.css';
+@import './font/iconfont.css';
+
+.fade-enter {
+  opacity: 0;
+  transform: scale(0);
+  // transform: translateX(375px)
+}
+
+.fade-enter.fade-enter-active {
+  // transform: translateX(0);
+  
+  opacity: 1;
+  transform: scale(1);
+  transform-origin: top left;
+  transition: 300ms ease-out;
+}
+
+.fade-exit{
+  // transform: translateX(0)
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-exit.fade-exit-active{
+  // transform: translateX(-375px);
+  opacity:0;
+  transform: scale(0);
+  transition: 300ms ease-out;
+}
